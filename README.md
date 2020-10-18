@@ -7,14 +7,14 @@ Raspberry Pi Zero and DHT22 sensor.
 I recommend starting with this tutorial: https://www.balena.io/docs/learn/getting-started/raspberry-pi/python/
 
 ## Features
-* Readings taken every 10 seconds
+* Readings taken every 10 seconds.
 * Supports "test" mode to run without sensors. This is controlled by HAS_SENSORS env variable.
-* Uses a deprecated Adafruit_DHT python library installed through wheel
+* Uses a deprecated Adafruit_DHT python library installed through wheel.
 
 ## Hardware
-* Raspberry Pi Zero Wireless WH (Pre-Soldered Header)
+* Raspberry Pi Zero Wireless WH (Pre-Soldered Header).
 * DHT22 AM2302 Digital Temperature and Humidity Sensor Module. The sensor is 
-connected to +5V, Ground and Pin 38 (GPIO20)
+connected to +5V, Ground and Pin 38 (GPIO20).
 
 ## Dashboard
 <img src=images/dashboard.png width=700>
