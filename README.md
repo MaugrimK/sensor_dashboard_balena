@@ -7,9 +7,12 @@ Raspberry Pi Zero and DHT22 sensor.
 I recommend starting with this tutorial: https://www.balena.io/docs/learn/getting-started/raspberry-pi/python/
 
 ## Features
-* Readings taken every 10 seconds.
-* Supports "test" mode to run without sensors. This is controlled by HAS_SENSORS env variable.
-* Uses a deprecated Adafruit_DHT python library installed through wheel.
+* Flask webserver - interface to the sensor.
+* Influx DB - time series db to store the metrics.
+* Grafana - UI for monitoring and analytics.
+* Telegraf - an agent to collect metrics. Takes a reading every 10 seconds.
+* Sensor driver - a deprecated Adafruit_DHT python library installed through wheel.
+* Test mode - runs without sensors. Controlled by the HAS_SENSORS env variable.
 
 ## Hardware
 * Raspberry Pi Zero Wireless WH (Pre-Soldered Header).
